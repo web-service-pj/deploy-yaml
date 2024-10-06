@@ -12,6 +12,8 @@ spec:
       labels:
         app: frontend
     spec:
+      imagePullSecrets:
+      - name: regcred
       containers:
       - name: frontend
         image: 0b6fa52889bf.ngrok.app/test/frontend:v33
