@@ -13,7 +13,7 @@ spec:
         app: backend
     spec:
       imagePullSecrets:
-      - name: regcrd
+      - name: regcred
       containers:
       - name: backend
         image: 0b6fa52889bf.ngrok.app/cluster/backend:v1
