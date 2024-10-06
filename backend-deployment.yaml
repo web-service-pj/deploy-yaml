@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend-deployment
+  name: backend-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: frontend
+      app: backend
   template:
     metadata:
       labels:
-        app: frontend
+        app: backend
     spec:
       imagePullSecrets:
-      - name: regcred
+      - name: regcrd
       containers:
-      - name: frontend
-        image: 0b6fa52889bf.ngrok.app/test/frontend:v33
+      - name: backend
+        image: 0b6fa52889bf.ngrok.app/test/backend:v30
         ports:
         - containerPort: 80
