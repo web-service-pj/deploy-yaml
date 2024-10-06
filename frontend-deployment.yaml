@@ -16,6 +16,6 @@ spec:
       - name: regcred
       containers:
       - name: frontend
-        image: 0b6fa52889bf.ngrok.app/cluster/frontend:v2
+        image: 0b6fa52889bf.ngrok.app/cluster/frontend:v3
         ports:
         - containerPort: 80
