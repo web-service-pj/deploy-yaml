@@ -16,6 +16,6 @@ spec:
       - name: regcrd
       containers:
       - name: backend
-        image: 0b6fa52889bf.ngrok.app/test/backend:v30
+        image: 0b6fa52889bf.ngrok.app/cluster/backend:v1
         ports:
         - containerPort: 80
