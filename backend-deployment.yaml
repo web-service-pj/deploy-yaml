@@ -19,3 +19,18 @@ spec:
         image: 0b6fa52889bf.ngrok.app/cluster/backend:v2
         ports:
         - containerPort: 80
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: DB_HOST
+          value: "10.0.0.47"
+        - name: DB_PORT
+          value: "3306"
+        - name: DB_USER
+          value: "user"
+        - name: DB_PASSWORD
+          value: "root"
+        - name: DB_NAME
+          value: "shop_db"
+        - name: JWT_SECRET
+          value: "xptmxmxptmxm"
