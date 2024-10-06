@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 192.168.64.3/test/frontend:v33
+        image: 0b6fa52889bf.ngrok.app/test/frontend:v33
         ports:
         - containerPort: 80
