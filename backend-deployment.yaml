@@ -16,6 +16,6 @@ spec:
       - name: regcred
       containers:
       - name: backend
-        image: 0b6fa52889bf.ngrok.app/cluster/backend:v1
+        image: 0b6fa52889bf.ngrok.app/cluster/backend:v2
         ports:
         - containerPort: 80
