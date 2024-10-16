@@ -28,3 +28,10 @@ spec:
         image: 0b6fa52889bf.ngrok.app/cluster/frontend:v15
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            cpu: "50m"
+            memory: "50Mi"
+          requests:
+            cpu: "25m"
+            memory: "25Mi"
