@@ -43,10 +43,3 @@ spec:
           value: "shop_db"
         - name: JWT_SECRET
           value: "xptmxmxptmxm"
-        resources:
-          limits:
-            cpu: "100m"
-            memory: "150Mi"
-          requests:
-            cpu: "50m"
-            memory: "70Mi"
