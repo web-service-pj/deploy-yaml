@@ -22,10 +22,10 @@ spec:
                 values:
                 - "true"
       imagePullSecrets:
-      - name: regcred
+      - name: docker-hub
       containers:
       - name: backend
-        image: 0b6fa52889bf.ngrok.app/cluster/backend:v12
+        image: nohhye/backend:v21
         ports:
         - containerPort: 80
         env:
