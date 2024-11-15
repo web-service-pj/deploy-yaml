@@ -25,7 +25,7 @@ spec:
       - name: docker-hub
       containers:
       - name: backend
-        image: nohhye/backend:v21
+        image: nohhye/backend:v25
         ports:
         - containerPort: 80
         env:
