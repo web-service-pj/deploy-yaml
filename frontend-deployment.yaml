@@ -25,6 +25,6 @@ spec:
       - name: docker-hub
       containers:
       - name: frontend
-        image: nohhye/frontend:final
+        image: nohhye/frontend:v54
         ports:
         - containerPort: 80
